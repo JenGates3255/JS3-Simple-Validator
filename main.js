@@ -10,5 +10,12 @@ var postcode= prompt("Enter in 5 or 9 digit postalcode");
 var state = prompt("Enter in state");
     alert(state.toUpperCase().substring(0,2));
 
-var married = prompt("married");
-	alert(married.toLowerCase() === 'yes'|| married.toLowerCase() === 'no');	
+var married = prompt("married?");
+
+	if(married.toLowerCase() === 'yes'|| married.toLowerCase() === 'no') {
+		alert("Great!");
+}
+	else {
+		alert("Please enter yes or no");
+	}
+
